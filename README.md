@@ -23,7 +23,12 @@
   
   **CoAID Dataset** -
   
-@misc {cui2020coaid, title={CoAID: COVID-19 Healthcare Misinformation Dataset}, author={Limeng Cui and Dongwon Lee}, year={2020}, eprint={2006.00885}, archivePrefix={arXiv}, primaryClass={cs.SI} }
+@misc {cui2020coaid, 
+  title={CoAID: COVID-19 Healthcare Misinformation Dataset}, 
+  author={Limeng Cui and Dongwon Lee}, year={2020}, eprint={2006.00885}, 
+  archivePrefix={arXiv}, 
+  primaryClass={cs.SI} }
+  
 From <https://github.com/cuilimeng/CoAID/blob/master/README.md>
   
 ## Text Pre Processing & EDA
