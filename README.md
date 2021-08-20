@@ -9,6 +9,8 @@
 ## How can we combat Covid-19 misinformation using Natural Language Processing (NLP), Machine Learning, and Statistical Algorithms?
   ----------------------------------------------------------------------------------------------------------------------------------
   
+  **This project is still ongoing and will be updated periodically as more data is collected relating to covid-19**
+  
   So, how can we combat Covid-19 Misinformation using Natural Language Processing? Can we assist individuals using the internet detect falsehoods they may encounter every day? My aim for this project is to create a NLP Classification Model to detect whether an article, post, and tweet is fact “real” or fiction “fake”.
   
 ## Related Work
@@ -24,21 +26,19 @@
 @misc {cui2020coaid, title={CoAID: COVID-19 Healthcare Misinformation Dataset}, author={Limeng Cui and Dongwon Lee}, year={2020}, eprint={2006.00885}, archivePrefix={arXiv}, primaryClass={cs.SI} }
 From <https://github.com/cuilimeng/CoAID/blob/master/README.md>
   
-## Methods Used
+## Text Pre Processing & EDA
   - Tokenization
   - Machine Learning
   - Data Visualization
   - TF-IDF 
-  
-## Technologies
-  - Jupyter Notebook
-  - Python
-  - Pandas
   
 ## Methods
   - SVM (Support Vector Machine) - BOW (bag-of-words) to represent text data, and feed the representations to a linear kernel SVM
   - Logistic Regression - Concatenate all the word embeddings together, and feed it to the model.
   - Random Forest - BOW (bag-of-words) to represent text data, and feed the representations to the model.
 
-  
-
+## Technologies
+  - Jupyter Notebook
+  - Python
+  - Pandas
+ 
